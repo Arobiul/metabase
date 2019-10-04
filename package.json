@@ -84,7 +84,8 @@
     "tether": "^1.2.0",
     "underscore": "^1.8.3",
     "webpack-dev-middleware": "^1.12.0",
-    "z-index": "0.0.1"
+    "z-index": "0.0.1",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "@slack/client": "^3.5.4",
@@ -189,12 +190,15 @@
     "docs": "documentation build -f html -o frontend/docs frontend/src/metabase-lib/lib/**",
     "ci": "yarn ci-frontend && yarn ci-backend",
     "ci-frontend": "yarn lint && yarn flow && yarn test",
-    "ci-backend": "lein docstring-checker && lein bikeshed && lein eastwood && lein test"
+    "ci-backend": "lein docstring-checker && lein bikeshed && lein eastwood && lein test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "lint-staged": {
     "frontend/**/*.{js,jsx,css}": [
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "snyk": true
 }
