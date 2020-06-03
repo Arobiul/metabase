@@ -8069,11 +8069,10 @@ pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
 
-password-generator@^2.0.1:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/password-generator/-/password-generator-2.2.0.tgz#fc75cff795110923e054a5a71623433240bf5e49"
-  dependencies:
-    yargs-parser "^8.0.0"
+password-generator@^2.3.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/password-generator/-/password-generator-2.3.1.tgz#e0795a832643e579a1a70240dc425129a8b40d94"
+  integrity sha512-VmvZlACyZUoFOR+B1QPMmhqU9xpPzeTywgLnko1Kr2/4VgOAI2rgmT8N8kCDBq/ga/WWL6TO+DVKaKKFQ/nOUQ==
 
 path-browserify@0.0.0:
   version "0.0.0"
