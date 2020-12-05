@@ -45,7 +45,7 @@
     "password-generator": "^2.0.1",
     "prop-types": "^15.5.7",
     "react": "15",
-    "react-addons-shallow-compare": "^15.2.1",
+    "react-addons-shallow-compare": "^15.6.3",
     "react-ansi-style": "^1.0.0",
     "react-collapse": "^4.0.3",
     "react-copy-to-clipboard": "^5.0.1",
