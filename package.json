@@ -40,7 +40,7 @@
     "moment": "2.19.3",
     "node-libs-browser": "^2.0.0",
     "normalizr": "^3.0.2",
-    "npm": "^5.8.0",
+    "npm": "^7.0.0",
     "number-to-locale-string": "^1.0.1",
     "password-generator": "^2.0.1",
     "prop-types": "^15.5.7",
@@ -83,7 +83,7 @@
     "system-components": "^2.0.3",
     "tether": "^1.2.0",
     "underscore": "^1.8.3",
-    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-middleware": "^5.3.4",
     "z-index": "0.0.1"
   },
   "devDependencies": {
